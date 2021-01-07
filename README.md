@@ -1,3 +1,3 @@
-# RGB_LED-in-ESP8266-Arduino-...-Remote-Desktop-
+# Светодидная RGB-лента на микроконтролере Arduino WiFi ESP8266 NodeMCU
 
 ![](esp-rgb-diagram.jpg)
