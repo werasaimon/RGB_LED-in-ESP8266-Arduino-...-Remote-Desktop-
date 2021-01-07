@@ -1,12 +1,13 @@
 # Светодиодная RGB-лента на микроконтролере Arduino WiFi ESP8266 NodeMCU
 # + Исходный код пульта под Windows/Android
- <br><p align="center"> 
-   --------------  Diagrama  ---------------  </p> </br>
+ <br><p align="center"> --------------  Diagrama  ---------------  </p> </br>
+ 
 ![](esp-rgb-diagram.jpg)
 
 ## как настройка arduino IDE для Arduino esp8266 http://geekmatic.in.ua/arduino_ide_with_wifi_esp8266
 
-sketch code for Arduino WiFi ESP8266 NodeMCU 
+ 
+<br><p align="center">  sketch code for Arduino WiFi ESP8266 NodeMCU  </p> </br>
 ```cpp
 #include <ESP8266WiFi.h>           // Библиотека WiFi связь 
 #include <WiFiUdp.h>               // Udp-Сокет 
