@@ -4,9 +4,11 @@
  
 ![](esp-rgb-diagram.jpg)
 
+ <br><p align="center"> --------------  YouTube Video Tutorial  ---------------  </p> </br>
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/EdEHO1Tbr-g/0.jpg)](https://www.youtube.com/watch?v=EdEHO1Tbr-g)
 
 
+//----------------------------------------------------------------------------------//
 ## как настройка arduino IDE для Arduino esp8266 http://geekmatic.in.ua/arduino_ide_with_wifi_esp8266
 
  
