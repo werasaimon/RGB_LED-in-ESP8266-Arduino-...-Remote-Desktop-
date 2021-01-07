@@ -17,21 +17,20 @@ int PWM_LED_B = 12; //pin D6 - Green
 int PWM_LED_C = 13; //pin D7 - Blue
 
 //----------------//
-unsigned int localPort = 8888;     // Локальный порт прослушевания сети 
+unsigned int localPort = 8888; // Локальный порт прослушевания сети 
 
-const char *ssid     = "LED"; // SSID имя WiFi точки-доступа робокара 
+const char *ssid     = "LED"; // SSID имя WiFi точки-доступа 
 const char* password = "12345678"; // Пароль WiFii  
 
 
-IPAddress local_ip(192,168,1,100);  // IP-адрес робокара
-IPAddress gateway(192,168,1,1);    // IP-адрес шлюза  
-IPAddress subnet(255,255,255,0);   // Подсеть 
+IPAddress local_ip(192,168,1,100);  // IP-адрес нашой платы статичский 
+IPAddress gateway(192,168,1,1);  // IP-адрес шлюза  
+IPAddress subnet(255,255,255,0); // Подсеть 
 
 #define PACKET_MAX_SIZE 255         // Масимальный размер пакета-данных 
-char packetBuffer[PACKET_MAX_SIZE];// Буферы для приема и отправки пакета-данных,
-char replayBuffer[PACKET_MAX_SIZE];
+char packetBuffer[PACKET_MAX_SIZE]; // Буферы для приема и отправки пакета-данных,
 
-WiFiUDP UDP;                       // UPD-сокет обект 
+WiFiUDP UDP; // UPD-сокет обект 
 
 // Структора данных , кнтроля робокара 
 struct Color3                                                                                
@@ -140,9 +139,9 @@ void loop()
         UDP.endPacket();
     }
 
-    analogWrite(PWM_LED_A, _gColor.R);
-    analogWrite(PWM_LED_B, _gColor.G);
-    analogWrite(PWM_LED_C, _gColor.B);
+    analogWrite(PWM_LED_A, _gColor.R); // ШИМ красного цвета 
+    analogWrite(PWM_LED_B, _gColor.G); // ШИМ зелёного цвета 
+    analogWrite(PWM_LED_C, _gColor.B); // ШИМ синего цвета 
     
     delay(10); // Ждем 10 милисекунд 
 }
