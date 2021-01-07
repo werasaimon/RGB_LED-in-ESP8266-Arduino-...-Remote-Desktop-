@@ -3,7 +3,7 @@
 ->>>> RemoteClient_Qt (Windows & Android)
 
 
-
+#diagram
 ![](esp-rgb-diagram.jpg)
 
 ## как настройка arduino IDE для Arduino esp8266 http://geekmatic.in.ua/arduino_ide_with_wifi_esp8266
