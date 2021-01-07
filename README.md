@@ -1,9 +1,7 @@
 # Светодиодная RGB-лента на микроконтролере Arduino WiFi ESP8266 NodeMCU
 # + Исходный код пульта под Windows/Android
-->>>> RemoteClient_Qt (Windows & Android)
 
-
-# diagram
+#  <center> Diagrama </center>
 ![](esp-rgb-diagram.jpg)
 
 ## как настройка arduino IDE для Arduino esp8266 http://geekmatic.in.ua/arduino_ide_with_wifi_esp8266
