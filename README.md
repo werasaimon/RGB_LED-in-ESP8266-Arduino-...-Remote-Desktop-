@@ -31,7 +31,7 @@ int PWM_LED_C = 13; //pin D7 - Blue
 //----------------//
 unsigned int localPort = 8888;     // Локальный порт прослушевания сети 
 
-const char *ssid     = "LED"; // SSID имя WiFi точки-доступа робокара 
+const char *ssid     = "LED"; // SSID имя WiFi точки-доступа 
 const char* password = "12345678"; // Пароль WiFii  
 
 
