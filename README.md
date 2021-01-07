@@ -7,7 +7,7 @@
 ## как настройка arduino IDE для Arduino esp8266 http://geekmatic.in.ua/arduino_ide_with_wifi_esp8266
 
  
-<br><p align="center">  sketch code for Arduino WiFi ESP8266 NodeMCU  </p> </br>
+<br><p align="center">  Sketch code for Arduino WiFi ESP8266 NodeMCU  </p> </br>
 ```cpp
 #include <ESP8266WiFi.h>           // Библиотека WiFi связь 
 #include <WiFiUdp.h>               // Udp-Сокет 
