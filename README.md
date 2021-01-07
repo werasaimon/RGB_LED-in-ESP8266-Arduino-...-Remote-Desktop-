@@ -3,7 +3,7 @@
 
 ![](esp-rgb-diagram.jpg)
 
-## как настройка arduino ide для esp8266 http://geekmatic.in.ua/arduino_ide_with_wifi_esp8266
+## как настройка arduino IDE для Arduino esp8266 http://geekmatic.in.ua/arduino_ide_with_wifi_esp8266
 
 sketch code for Arduino WiFi ESP8266 NodeMCU 
 ```cpp
