@@ -1,5 +1,5 @@
 # Светодиодная RGB-лента на микроконтролере Arduino WiFi ESP8266 NodeMCU
-# + Исходный код пульта под Windows/Android
+# + Исходный код пульта под Windows/Android на Qt/C++
  <br><p align="center"> --------------  Diagrama  ---------------  </p> </br>
  
 ![](esp-rgb-diagram.jpg)
